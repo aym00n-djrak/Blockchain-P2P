@@ -1,0 +1,10 @@
+import socket
+
+SERVER_IP = socket.gethostbyname(socket.gethostname())
+WALLET_TCP_PORT = 5050
+MINER_TCP_PORT = 5051
+BUFFER_SIZE = 1024
+HEADER = 64
+FORMAT = 'utf-8'
+DISCONNECT_MESSAGE = "!DISCONNECT"
+TIMEOUT = 5
